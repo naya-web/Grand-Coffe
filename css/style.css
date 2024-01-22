@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover{
+    color: #f76d37 !important;
+}
+
+.section1{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.section1  .p1{
+    font-size: 295%;
+}
+.section1  .p2{
+    font-size: 17px;
+    line-height: 1.6;
+}
+.section1 h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.more{
+    padding: 15px 40px;
+    background-color: #252525;
+    border: none;
+    font-size: 14px;
+}
+.section1 .move span{
+    width: 45px;
+    height: 45px;
+}
+.more2{
+    padding: 12px 40px;
+    background-color: #252525;
+    border: none;
+    font-size: 18px;
+}
+.about-h1{
+    color: #f76d37;
+}
+.gallery img{
+    width: 80%;
+}
+.more3{
+    color: #fff;
+    background-color: #252525;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+.services{
+    background-image: url(../images/services-bg.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.serv{
+    background-color: #f76d37;
+    min-height: 350px;
+    padding: 50px 20px;
+}
+.serv img{
+    width: 25%;
+}
+.a{
+    width: 400px !important;
+}
+.contact{
+    background-image: url(../images/img-9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contact-box h1{
+    color: #f76d37;
+    font-weight: 700;
+}
+.send{
+    background-color: #f76d37;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.contact input{
+    border-radius: 50px;
+    border: none;
+}
+.contact input:focus{
+    outline: 2px solid #f76d37;
+}
+.contact textarea{
+    border-radius: 50px;
+}
+.foot{
+    background-color: #252525;
+}
+.foot ul{
+    list-style: none;
+    padding: 0 !important;
+}
+.foot ul li{
+    padding-bottom: 5px;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    transition: .3s;
+}
+.foot ul li a:hover{
+    color: #f76d37;
+}
